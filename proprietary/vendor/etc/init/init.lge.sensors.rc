@@ -1,0 +1,5 @@
+# Sensor
+on post-fs-data
+    mkdir /vendor/sns/sensors/ 0755 system system
+    mkdir /vendor/sns/sensors/registry/ 0755 system system
+    mkdir /vendor/sns/sensors/registry/registry 0755 system system
